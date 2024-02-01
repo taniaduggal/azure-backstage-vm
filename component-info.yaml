@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "vm-taniaa-test-eastus-001"
+  annotations:
+    github.com/project-slug: taniaduggal/demoterraform # Change the value to your github repo which contains
+    backstage.io/techdocs-ref: dir:.
+  title: 'IA for Instance Automation' # you can give any title
+  description: An example of a Instance Creation. # Change Description accordingly
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental

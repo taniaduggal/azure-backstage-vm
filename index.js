@@ -1,0 +1,1 @@
+console.log('Hey!! vm-taniaa-test-eastus-001 instance is getting created. ');
